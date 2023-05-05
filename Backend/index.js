@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const connect = require("./src/config/db");
-const PORT = process.env.PORT || 8080
+const PORT = process.env.PORT || 3000
 const userRoute = require("./src/controller/user.route.js");
 
 const app = express();
